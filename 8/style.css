@@ -1,0 +1,218 @@
+@font-face {
+    font-family: gilory;
+    src: url(./Gilroy-Medium.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:gilory;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+section{
+    height:100%;
+    width:100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+nav h1 i{
+    rotate: 45deg;
+    display: inline-block;
+    font-size: 40px;
+}
+
+nav h1{
+    font-size: 30px;
+}
+
+.part-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:3vw;
+}
+
+.part-2 button{
+    padding: 10px 20px;
+    border:2px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.center{
+    display: flex;
+    height:80%;
+    width:100%;
+    padding: 10px 50px;
+}
+
+.center-part-1{
+    height:100%;
+    width:50%;
+}
+
+.center-part-1 h1{
+    font-size: 70px;
+}
+
+.center-part-1 p{
+    margin-top: 50px;
+    padding-right: 20px;
+    margin-bottom: 35px;
+}
+
+.center-part-1 button{
+    font-size:20px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+    background-color: black;
+}
+
+.center-part-2{
+    /* background-image: url("https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg"); */
+    height:100%;
+    width:50%;
+    position: relative;
+}
+
+.center-part-2 img {
+    height: 100%;
+    position: absolute;
+    right:0;
+}
+
+.section1Bottom{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.section1Bottom img {
+    height:70px;
+}
+
+.section2 .services{
+  padding-top: 40px;
+  padding-bottom: 70px;
+  padding-right:60px;
+  padding-left:80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap:60px;
+}
+
+.services h3{
+    font-size:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #9AE975;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.services p{
+    width:40%;
+    font-size:18px;
+    font-weight: 500;
+}
+
+.container{
+    min-height:86vh;
+    width:100%;
+    padding:10px 60px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:70px;
+}
+
+.elem{
+    flex-shrink: 0;
+    height:250px;
+    width:47%;
+    border:3px solid black;
+    border-radius: 50px;
+    /* background-color: red; */
+    box-shadow: 0px 15px 0px black;
+    display: flex;
+
+}
+ .elem-part-1{
+    height:100%;
+    width:50%;
+    padding: 40px 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+ .elem-part-2{
+    height:100%;
+    width:50%;
+ }
+
+ .elem-part-2 img{
+    height:100%;
+ }
+
+ .elem-part-1 h2{
+    font-size: 25px;
+    width:70%;
+    border-radius: 10px;
+    font-weight:500;
+    background-color: #9AE975;
+ }
+
+  .elem-part-1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight:500;
+    gap:20px
+  }
+
+ .elem-part-1 h4 i{
+    font-size: 25px;
+    font-weight:900;
+    padding:10px 10px;
+    background-color: black;
+    color: #fff;
+    border-radius: 50%;
+ }
+
+ .black{
+    background-color: #111;
+    color:rgb(0, 0, 0)
+ }
+
+ .black h2{
+    background-color: #fff;
+ }
+
+ .black h4{
+   color: #fff;
+ }
+
+ .black h4 i{
+   background-color: #fff;
+   color: #111;
+ }
