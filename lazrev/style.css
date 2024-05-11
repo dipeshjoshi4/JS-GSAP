@@ -49,12 +49,14 @@ nav{
 .nav-part2 h5{
     margin-bottom: 1vw;
     /* background-color: red; */
-    display:none
+    display:none;
+    overflow: hidden;
 }
 
 .nav-part2 h5 span{
     font-size:0.77vw;
     font-weight: 400;
+    transform: translateY(25px);
     display: inline-block;
 }
 
