@@ -16,7 +16,7 @@ nav.addEventListener("mouseenter", function () {
         y: 0,
         // duration: 0.2,
         stagger: {
-            amount:0.6
+            amount: 0.5
         }
     })
 })
