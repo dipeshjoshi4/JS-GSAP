@@ -27,6 +27,7 @@ nav{
     justify-content: space-between;
     align-items: flex-start;
     padding:2vw 10vw;
+    z-index: 10;
 }
 
 
@@ -150,6 +151,27 @@ nav button svg{
     border:none;
     padding:2px;
 }
+
+#moving-div{
+    background-color: red;
+    position: absolute;
+    margin-top: 12vh;    /* */
+    bottom: 3%;
+    white-space: nowrap;
+    width:44%;
+    padding: 1.5vw;
+    overflow: hidden;
+}
+
+#moving-div .move{
+   display: inline-block;
+}
+
+#moving-div .move img{
+    height:1vw;
+    margin:0 1.5vw;
+}
+
 #page2{
     height:100vh;
     width:100%;
