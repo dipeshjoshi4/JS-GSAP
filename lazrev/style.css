@@ -218,4 +218,22 @@ nav button svg{
     height:100vh;
     width:100%;
     background-color: #111;
+    position: relative;
+    padding: 2vw 10.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #333;
+}
+
+#pag2-left{
+    background-color: rgb(238, 7, 7);
+    height:100%;
+    width:40%;
+}
+
+#pag2-right{
+    background-color: rgb(227, 13, 13);
+    height:100%;
+    width:50%;
 }
