@@ -30,6 +30,12 @@ nav{
     z-index: 10;
 }
 
+.nav-elem h4:hover{
+    color:rgb(171, 171, 197);
+    opacity: 0.5;
+        /* transition: .6s opacity cubic-bezier(.16,1,.32,1); */
+}
+
 
 .nav-part2{
     display: flex;  
@@ -72,6 +78,8 @@ nav button{
     border: none;
     border-radius: 50px;
     /* margin-bottom: 1vh; */
+    /* will-change: width;
+    transition: width .8s cubic-bezier(.16,1,.32,1); */
 }
 
 nav button svg{
