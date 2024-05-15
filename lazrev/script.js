@@ -43,7 +43,6 @@ function navAnimation() {
     })
 }
 
-
 function page2Animation() {
     var elems = document.querySelectorAll(".right-elem");
     elems.forEach(function (elem) {
@@ -63,14 +62,40 @@ function page2Animation() {
         })
         elem.addEventListener("mousemove", function (dets) {
             gsap.to(elem.childNodes[3], {
-                x: dets.x - elem.getBoundingClientRect().x - 50,
-                y: dets.y - elem.getBoundingClientRect().y - 190
+                x: dets.x - elem.getBoundingClientRect().x - 140,
+                y: dets.y - elem.getBoundingClientRect().y - 100
             })
         })
     })
 }
 
+function page3VideoAnimation() {
+
+    var page3Center = document.querySelector(".page3-center");
+    var video = document.querySelector("#page3 video");
+
+    page3Center.addEventListener("click", function () {
+        video.play()
+        gsap.to(video, {
+            transform: "scaleX(1) scaleY(1)",
+            opacity: 1,
+            borderRadius: 0
+        })
+    })
+
+    video.addEventListener("click", function () {
+        video.pause()
+        gsap.to(video, {
+            transform: "scaleX(0.7) scaleY(0)",
+            opacity: 0,
+            borderRadius: "30px"
+        })
+    })
+    
+}
 
 navAnimation();
 
 page2Animation();
+
+page3VideoAnimation()
