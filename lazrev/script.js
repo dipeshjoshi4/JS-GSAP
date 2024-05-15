@@ -43,4 +43,4 @@ function navAnimation() {
     })
 }
 
-navAnimation();
+// navAnimation();
