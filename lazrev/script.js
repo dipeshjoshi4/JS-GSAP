@@ -94,22 +94,53 @@ function page3VideoAnimation() {
     
 }
 
+function page7VideoAnimation() {
+    var sections = document.querySelectorAll(".sec-right")
+    
+    sections.forEach(function (elem) {
+        elem.addEventListener("mouseenter", function () {
+            elem.childNodes[3].style.opacity = 1
+            elem.childNodes[3].play()
+        })
+        elem.addEventListener("mouseleave", function () {
+            elem.childNodes[3].style.opacity = 0
+            elem.childNodes[3].load()
+        })
+    })
+}
+
+function page8CardVideoAnimation() {
+
+    var sections = document.querySelectorAll("#card");
+
+    sections.forEach(function (elem) {
+
+        elem.addEventListener("mouseenter", function () {
+            elem.childNodes[9].style.opacity = 1
+            elem.childNodes[9].play()
+            elem.childNodes[9].style.height = "70vh"
+            elem.childNodes[7].style.opacity = 0
+        })
+
+        elem.addEventListener("mouseleave", function () {
+            elem.childNodes[9].style.opacity = 0
+            elem.childNodes[7].style.opacity = 1
+            elem.childNodes[9].play()
+            // elem.childNodes[7].style.opacity = 1
+
+        })
+
+    })
+}
+ 
 // navAnimation();
 
 // page2Animation();
 
 // page3VideoAnimation()
 
-var sections = document.querySelectorAll(".sec-right")
+// page7VideoAnimation()
 
-sections.forEach(function (elem) {
-    elem.addEventListener("mouseenter", function () {
-        elem.childNodes[3].style.opacity = 1
-        elem.childNodes[3].play()
-    })
-    elem.addEventListener("mouseleave", function () {
-        elem.childNodes[3].style.opacity = 0
-        elem.childNodes[3].load()
-    })
-})
+page8CardVideoAnimation()
+
 
