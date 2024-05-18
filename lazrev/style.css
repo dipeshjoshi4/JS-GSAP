@@ -612,3 +612,18 @@ nav button svg{
     transition: opacity ease 0.5s;
 
 }
+
+#page9header{
+    min-height:50vh;
+    width: 100%;
+    background-color: #000;
+    color:white;
+    text-align: center;
+    padding-top: 25vh;
+    direction:rtl;
+    border-top: 1px solid #A3A3A3;
+}
+
+#page9header h1{
+    font-size: 4vw;
+}
