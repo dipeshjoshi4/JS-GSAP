@@ -133,14 +133,14 @@ function page8CardVideoAnimation() {
     })
 }
  
-navAnimation();
+// navAnimation();
 
-page2Animation();
+// page2Animation();
 
-page3VideoAnimation()
+// page3VideoAnimation()
 
-page7VideoAnimation()
+// page7VideoAnimation()
 
-page8CardVideoAnimation()
+// page8CardVideoAnimation()
 
 

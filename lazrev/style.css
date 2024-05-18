@@ -321,7 +321,7 @@ nav button svg{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3.3vw;
+    padding: 2.3vw;
     border-radius: 50%;
     background-color: #fff;
 }
@@ -619,11 +619,43 @@ nav button svg{
     background-color: #000;
     color:white;
     text-align: center;
-    padding-top: 25vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
     direction:rtl;
     border-top: 1px solid #A3A3A3;
+    border-bottom: 1px solid #A3A3A3;
 }
 
 #page9header h1{
     font-size: 4vw;
+}
+
+#page9{
+    min-height:100vh;
+    width:100%;
+    background-color: #000;
+    padding:5vh 10.9vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#page9 button{
+    background-color: #0BA34E;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 600;
+    padding:20px 40px;
+    border-radius: 70px;
+    border: none;
+}
+
+#page9-right{
+    width:70%;
+}
+
+ #page9-right p{
+    color:white;
+    font-size: 2.2vw;
+     
 }
